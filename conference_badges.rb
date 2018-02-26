@@ -22,11 +22,11 @@ def assign_rooms(arr)
   new_arr
 end
 
-def printer
-  batch_badge_creator.each do |element|
+def printer(name)
+  batch_badge_creator(name).each do |element|
     puts element
   end
-  assign_rooms.each do |element|
+  assign_rooms(name).each do |element|
     puts element
   end
 end
